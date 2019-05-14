@@ -1,5 +1,6 @@
 import React from "react";
 import "./App.css";
+import Radium, { StyleRoot } from "radium";
 import Person from "./Person/Person";
 
 class App extends React.Component {
@@ -74,7 +75,6 @@ class App extends React.Component {
       );
 
       style.backgroundColor = "red";
-      style.border = "1px solid black";
     }
     const classes = [];
 
